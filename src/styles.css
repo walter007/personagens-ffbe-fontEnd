@@ -1,1 +1,82 @@
 /* You can add global styles to this file, and also import other style files */
+
+nav{
+    background:#000;
+}
+
+
+header .container nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+header .container nav ul li .dropdown-menu {
+    color: #FFF;
+    text-decoration: none;
+    background-color: black;
+}
+
+header .container nav ul li div a:hover{
+    color: rgb(67, 111, 233);
+    background: transparent;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+
+header .container nav ul li a:hover {
+    color: rgb(67, 111, 233);
+}
+
+h1 ,  p{
+    color: #FFF;
+}
+
+#sobre{
+    padding-top: 200px;
+}
+
+footer#rodape{
+    background: #000;
+    margin-top: 100px;
+    padding-bottom: 20px;
+    width:100%;
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+
+#navbar-rodape{
+    padding-top: 20px;
+}
+
+#navbar-rodape ul{
+    padding-left: 20px;
+}
+
+.linha{
+    border: 1px solid red;
+}
+
+.copyright{
+    margin-top: 20px;
+    text-align: center;
+    color: #FFF;
+}
+
+html,
+body {
+  margin:0;
+  padding:0;
+  height:100%;
+}
+#wrapper {
+  min-height:100%;
+  position:relative;
+}
+
+
+
